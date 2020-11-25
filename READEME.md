@@ -6,7 +6,7 @@
   ```scss
 
   .header {
-  background-color: $white;      // Aqui hay un Varible 
+  background-color: $white;      // Aqui hay una Varible 
   max-width: unset;
   padding: 5% 10%;
   
