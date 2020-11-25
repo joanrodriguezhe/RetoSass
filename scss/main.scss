@@ -2,29 +2,36 @@
 
 
 .blog {
+  /* Anidación */
   background-color: $white;
   max-width: unset;
   padding: 5% 10%;
 
   .title {
-    /* @extend %base-title; */
+    /* Anidación */
+    @extend %base-title;
   }
 
   .process-list {
+    /* Anidación */
     margin-top: 40px;
     margin-bottom: 36px;
 
     .process {
+      /* Anidación */
       margin-bottom: 25px;
 
-      & > div {
-        & > h3 {
+      &>div {
+
+        /* El & en las anidaciones selecciona el padre de la anidación */
+        &>h3 {
           color: $dark-green-title;
           margin-bottom: 0;
           font-size: 30px;
           font-weight: 500;
         }
-        & > p {
+
+        &>p {
           color: $dark-green-text;
           margin: 0;
         }
@@ -42,7 +49,7 @@
       }
     }
   }
-  
+
   button {
     height: auto;
     border-top-left-radius: 8px;

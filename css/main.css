@@ -1,20 +1,32 @@
-/** colores */
-/** fuentes */
-/** placeholders */
+@charset "UTF-8";
+@font-face {
+  font-family: "vesterbroextrabold";
+  src: url("../assets/Vesterbro-Extrabold.eot?") format("eot"), url("../assets/Vesterbro-Extrabold.woff2") format("woff2"), url("../assets/Vesterbro-Extrabold.woff") format("woff"), url("../assets/Vesterbro-Extrabold.ttf") format("truetype"), url('../assets/Vesterbro-Extrabold.svg#str-replace(vesterbroextrabold, " ", "_")') format("svg");
+}
+.blog .title {
+  font-family: "vesterbroextrabold", Arial, sans-serif;
+}
+
 .blog {
-  background-color: #c02e2e;
+  /* Anidación */
+  background-color: white;
   max-width: unset;
   padding: 5% 10%;
 }
 .blog .title {
-  /* @extend %base-title; */
+  /* Anidación */
 }
 .blog .process-list {
+  /* Anidación */
   margin-top: 40px;
   margin-bottom: 36px;
 }
 .blog .process-list .process {
+  /* Anidación */
   margin-bottom: 25px;
+}
+.blog .process-list .process > div {
+  /* El & en las anidaciones selecciona el padre de la anidación */
 }
 .blog .process-list .process > div > h3 {
   color: #025157;
