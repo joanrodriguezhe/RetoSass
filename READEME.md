@@ -13,7 +13,7 @@
   }
 
   ```
-  
+
   - La consola nos da un error identifica el error y repara el error, como pista hay un comentario en el  archivo _global.scss que es este /** placeholders */  podrás reparar el error con uno de los conceptos vistos a lo ultimo de la sesión de Sass .
 
   - identifica la anidación en el código y escribe un comentario como este  ” aquí hay una anidación”.
@@ -26,7 +26,7 @@
 ## Recuerda que el entregable es contigo mismo mientras mas practiques mejor serán tus habilidades como Developer.
 
 
-- Nota : Puedes compartirnos tu codigo creando un repo nuevo y copiando el codigo de este repo retoSass (no olvides hacer la instalación de Sass) o bien puedes clonarlo con Gitt y hacer los cambios directos en el repo clonado y nos mandas tus capturas de pantalla . EL reto es para que practiques no te presiones por entregarlo preocupate por Retar tu potencial.
+- Nota : Puedes compartirnos tu codigo creando un repo nuevo y copiando el codigo de este repo retoSass (no olvides hacer la instalación de Sass) o bien puedes clonarlo con Git y hacer los cambios directos en el repo clonado y nos mandas tus capturas de pantalla . EL reto es para que practiques no te presiones por entregarlo preocupate por Retar tu potencial.
 
 
 
