@@ -1,10 +1,10 @@
 /* Error: The target selector was not found.
  * Use "@extend %base-title !optional" to avoid this error.
  *    ,
- * 12 |     @extend %base-title;
+ * 10 |     @extend %base-title;
  *    |     ^^^^^^^^^^^^^^^^^^^
  *    '
- *   scss/main.scss 12:5  root stylesheet */
+ *   scss/main.scss 10:5  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: The target selector was not found.\aUse "@extend %base-title !optional" to avoid this error.\a    \2577 \a 12 \2502      @extend %base-title;\a    \2502      ^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss/main.scss 12:5  root stylesheet';
+  content: 'Error: The target selector was not found.\aUse "@extend %base-title !optional" to avoid this error.\a    \2577 \a 10 \2502      @extend %base-title;\a    \2502      ^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss/main.scss 10:5  root stylesheet';
 }
