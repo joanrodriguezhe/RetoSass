@@ -58,7 +58,7 @@
   font-family: "IBM Plex Sans", Arial, sans-serif;
 }
 .blog .card img {
-  max-height: 200px;
+  height: 200px;
 }
 .blog .card .card-title {
   font-weight: 600;
