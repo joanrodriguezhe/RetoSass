@@ -1,10 +1,13 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap");
 @font-face {
   font-family: "vesterbroextrabold";
-  src: url("../assets/Vesterbro-Extrabold.eot?") format("eot"), url("../assets/Vesterbro-Extrabold.woff2") format("woff2"), url("../assets/Vesterbro-Extrabold.woff") format("woff"), url("../assets/Vesterbro-Extrabold.ttf") format("truetype"), url('../assets/Vesterbro-Extrabold.svg#str-replace(vesterbroextrabold, " ", "_")') format("svg");
+  src: url("../assets/Vesterbro-Extrabold.eot?") format("eot"), url("../assets/Vesterbro-Extrabold.woff2") format("woff2"), url("../assets/Vesterbro-Extrabold.woff") format("woff"), url("../assets/Vesterbro-Extrabold.ttf") format("truetype"), url('../assets/Vesterbro-Extrabold.svg#str-replace(vesterbroextrabold, " ", "_")') format("svg"), url("../assets/Vesterbro-Extrabold.otf") format("opentype");
 }
 .blog .title {
   font-family: "vesterbroextrabold", Arial, sans-serif;
+  color: #025157;
+  font-size: 1.5em;
 }
 
 .blog {
@@ -47,13 +50,47 @@
 .blog .process-list .process .process-icon img {
   height: 100%;
 }
-.blog button {
-  height: auto;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-  padding: 12px;
-  width: 180px;
-  margin-bottom: 15px;
+.blog button.btn.btn-success {
+  background-color: #135359;
+  border: none;
+  padding: 12px 50px;
+  border-radius: 10px;
+}
+.blog .card {
+  width: 100%;
+  height: 100%;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+}
+.blog .card .card-title {
+  font-weight: 600;
+  color: #4a4a4a;
+}
+.blog .card .card-subtitle {
+  font-weight: 600;
+  color: #67b54b;
+  font-size: 1em;
+}
+.blog .card .card-subtitle .read-time {
+  color: #979797;
+}
+.blog .card .card-text {
+  font-weight: 400;
+  margin-top: 10px;
+  color: #4a4a4a;
+}
+.blog .card .card-text a {
+  text-decoration: underline;
+  color: #4a4a4a;
+}
+.blog .card .card-foot {
+  font-weight: 600;
+  font-size: 14px;
+  color: #4a4a4a;
+}
+.blog .card .card-foot img {
+  border-radius: 50%;
+  max-width: 35px;
+  margin-right: 8px;
 }
 
 /*# sourceMappingURL=main.css.map */
