@@ -10,25 +10,18 @@
   font-size: 1.5em;
 }
 
+/* Anidación */
 .blog {
-  /* Anidación */
   background-color: white;
   max-width: unset;
   padding: 5% 10%;
 }
-.blog .title {
-  /* Anidación */
-}
 .blog .process-list {
-  /* Anidación */
   margin-top: 40px;
   margin-bottom: 36px;
 }
 .blog .process-list .process {
-  /* Anidación */
   margin-bottom: 25px;
-}
-.blog .process-list .process > div {
   /* El & en las anidaciones selecciona el padre de la anidación */
 }
 .blog .process-list .process > div > h3 {
@@ -55,6 +48,9 @@
   border: none;
   padding: 12px 50px;
   border-radius: 10px;
+}
+.blog button.btn.btn-success:hover {
+  background-color: #67b54b;
 }
 .blog .card {
   width: 100%;
