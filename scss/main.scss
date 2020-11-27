@@ -72,9 +72,11 @@
     }
 
     .card-subtitle {
-      font-weight: 600;
-      color: $light-green;
-      font-size: 1em;
+      a {
+        font-weight: 600;
+        color: $light-green;
+        font-size: 1em;
+      }
 
       .read-time {
         color: $gray-read-time;

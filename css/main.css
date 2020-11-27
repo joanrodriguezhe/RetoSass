@@ -64,7 +64,7 @@
   font-weight: 600;
   color: #4a4a4a;
 }
-.blog .card .card-subtitle {
+.blog .card .card-subtitle a {
   font-weight: 600;
   color: #67b54b;
   font-size: 1em;
